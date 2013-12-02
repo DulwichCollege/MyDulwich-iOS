@@ -13,7 +13,13 @@
 @end
 
 @implementation SecondViewController
-
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    NSString *fullURL = @"www.google.com";
+    NSURL *url = [NSURL URLWithString:fullURL];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    [_WebRSS loadRequest:requestObj];
+}
 
 
 - (void)didReceiveMemoryWarning

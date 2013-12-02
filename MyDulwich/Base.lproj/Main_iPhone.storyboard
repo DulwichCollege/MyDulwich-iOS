@@ -17,11 +17,11 @@
                                 <rect key="frame" x="20" y="20" width="280" height="42"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.019607843831181526" green="0.72549021244049072" blue="0.98823535442352295" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <webView contentMode="scaleToFill" id="Ntj-8B-eYw">
-                                <rect key="frame" x="63" y="70" width="194" height="363"/>
+                                <rect key="frame" x="63" y="53" width="194" height="380"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -40,10 +40,10 @@
         <!--Second View Controller - Second-->
         <scene sceneID="ot8-2e-RuS">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
                 <viewController title="Second" id="QUy-BD-bpt" customClass="SecondViewController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="RSS" image="second" id="Z7h-1E-pvt"/>
+                    <tabBarItem key="tabBarItem" title="Notices" image="second" id="Z7h-1E-pvt"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="653" y="498"/>
         </scene>
